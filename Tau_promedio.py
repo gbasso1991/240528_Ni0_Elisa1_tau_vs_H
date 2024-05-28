@@ -310,7 +310,7 @@ taus=[]
 tau_proms=[]
 i=0
 for f in filepaths:
-    a,b,c,d,e,figura=Tau_promedio(f,recorto_extremos=62)
+    a,b,c,d,e,figura=Tau_promedio(f,recorto_extremos=60)
     Mag_eqs.append(a)
     H_mags.append(b)
     Hmax.append(c)
